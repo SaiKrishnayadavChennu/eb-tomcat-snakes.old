@@ -9,6 +9,11 @@ import java.io.*;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+public void jspInit(){
+  // Initialization code..
+        return;
+}
+
 public class AddMovie extends HttpServlet {
   private static final Logger logger = LogManager.getLogger("snakes");
   public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException, NumberFormatException {

@@ -3,6 +3,13 @@
 *.zip
 *.class
 
+.idea/compiler.xml
+.idea/copyright/
+.idea/eb-tomcat-snakes.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/workspace.xml
+
 # Elastic Beanstalk Files
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml

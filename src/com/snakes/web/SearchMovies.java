@@ -10,6 +10,11 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 public class SearchMovies extends HttpServlet {
+  public void jspInit(){
+    // Initialization code..
+    return;
+  }
+
   public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException, NumberFormatException {
     String query = request.getParameter("query");
     request.setAttribute("query", query);

@@ -11,6 +11,12 @@ public class ListMovies extends SimpleTagSupport {
   Movie[] movies = null;
   String query = null;
 
+  public void jspInit(){
+    // Initialization code..
+    return;
+  }
+
+
   public void setQuery(String query) {
     this.query = query;
   }
